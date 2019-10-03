@@ -1,0 +1,42 @@
+name = new_template
+
+  description = anything.
+
+  version = VERSION
+
+  core = 7.x
+
+  stylesheets[all][] = css/bootstrap.css
+
+  stylesheets[all][] = css/custom.css
+
+  stylesheets[all][] = css/global.css
+
+  stylesheets[all][] = css/font-awesome.min.css
+  
+  stylesheets[all][] = css/google_fonts.css
+
+ 
+
+  scripts[] = js/jquery-3.3.1.slim.min.js
+
+  scripts[] = js/bootstrap.min.js
+  
+  scripts[]= js/popper.min.js
+  
+  scripts[]= js/custome.js
+
+
+  regions[header] = Header
+
+  regions[highlighted] = Highlighted
+
+  regions[help] = Help
+
+  regions[content] = Content
+
+  regions[sidebar_first] = Left sidebar
+
+  regions[sidebar_second] = Right sidebar
+
+  regions[footer] = Footer
