@@ -1,4 +1,9 @@
 /* navbar strip */
+a:hover{
+text-decoration: none;
+}
+
+
 .header-strip{
     background-color: #2d3e50;
 }
@@ -41,7 +46,7 @@
 }
 /* carousal-wrap */
 .carousal-wrap {
-    height: 555px; 
+    height: 440px; 
     width: 100%;
 }
 .carousal-wrap .carousel-control-prev,
@@ -117,6 +122,18 @@
 	width: 84px;
 }
 /* carousal2 */
+.carousal2-wrap ol{
+    position: absolute;
+    margin: 0;
+    bottom: -45px;
+}
+.carousal2-wrap ol li{
+    height: 20px;
+    width: 20px;
+    background-color: #4e5d6d;
+    border-radius: 50%;
+    display: inline-block;
+}
 .carousal2-wrap .col-sm{
     padding: 0 2% 0 0;
 }

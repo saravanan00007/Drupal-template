@@ -151,7 +151,11 @@
                 <h5 style="color: #8e8e8e;">Best 2014 packages where people love to stay!</h5>
             </div>
             <div class="carousal2-wrap" style="padding: 5% 0;">
-                <div class="carousel slide" data-ride="carousel">
+                <div id="carouselMove" class="carousel slide"  data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselMove" data-slide-to="0" class="active" ></li>
+                    <li data-target="#carouselMove" data-slide-to="1" ></li>
+                </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row">
@@ -294,6 +298,12 @@
                             </div>
                         </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselMove" role="button" data-slide="prev" style="background-color: #f6f6f69c">
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselMove" role="button" data-slide="next" style="background-color:#f6f6f69c">
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -308,7 +318,7 @@
                         <div class="row" style="margin: auto;padding: 8%;">
                             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-2 col-xl-2 p-0 text-center">
                                 <span class="fa-stack fa-5x">
-                                    <i class="fa fa-twitter fa-stack-1x"></i>
+                                    <i class="fa fa-ship fa-stack-1x"></i>
                                 </span>
                                 <h5>Criuses</h5>
                             </div>
@@ -316,31 +326,31 @@
                                 <span class="fa-stack fa-5x">
                                     <i class="fa fa-building fa-stack-1x"></i>
                                 </span>
-                                <h5>Criuses</h5>
+                                <h5>City Breaks</h5>
                             </div>
                             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-2 col-xl-2 p-0 text-center">
                                 <span class="fa-stack fa-5x" >
-                                    <i class="fa fa-building fa-stack-1x"></i>
+                                    <i class="fa fa-heart fa-stack-1x"></i>
                                 </span>
-                                <h5>Criuses</h5>
+                                <h5>Honeymoon</h5>
                             </div>
                             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-2 col-xl-2 p-0 text-center">
                                 <span class="fa-stack fa-5x">
                                     <i class="fa fa-compass fa-stack-1x"></i>
                                 </span>
-                                <h5>Criuses</h5>
+                                <h5>Advanture</h5>
                             </div>
                             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-2 col-xl-2 p-0 text-center">
                                 <span class="fa-stack fa-5x">
                                     <i class="fa fa-tree fa-stack-1x"></i>
                                 </span>
-                                <h5>Criuses</h5>
+                                <h5>Safari</h5>
                             </div>
                             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-2 col-xl-2 p-0 text-center">
                                 <span class="fa-stack fa-5x">
-                                    <i class="fa fa-tree fa-stack-1x"></i>
+                                    <i class="fa fa-fort-awesome fa-stack-1x"></i>
                                 </span>
-                                <h5>Criuses</h5>
+                                <h5>Fort</h5>
                             </div>
 							</div>
                         </div>
@@ -542,7 +552,7 @@
         <div class="footer-strip">
             <div class="text-center" style="padding: 22px 0 0 0;">
                 <ul class=" form-inline">
-                    <li>Home </li>
+                    <li style="color:#1fceaf;">Home </li>
                     <li>:: </li>
                     <li>Destinations </li>
                     <li>:: </li>
