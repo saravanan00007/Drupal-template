@@ -125,8 +125,8 @@
             <div class="col-sm-10 col-xs-10 col-md-10 col-lg-10 col-xl-9 " style="padding: 3px 0 0px 2%;">
                 <form class="form-inline">
                     <div class="form-inline p-0">
-                        <h3 class="">Where</h3>
-                        <div class="position-relative destination-part">
+                        <h3 class="d-inline-block">Where</h3>
+                        <div class="position-relative destination-part d-inline-block">
                             <input type="text" placeholder="distination">
                             <i class="fa fa-globe" aria-hidden="true"></i>
                         </div>
